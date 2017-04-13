@@ -3957,9 +3957,9 @@ define(String.prototype, "padRight", "".padEnd);
         text.anchor.setTo(0.5, 0.5);
 
         this.load.image('loaderBg', 'assets/images/loader-bg.png');
-        this.load.image('loaderBar', '../assets/images/loader-bar.png');
-        this.load.image('underwater', '../assets/images/1.png');
-        this.load.image('button', '../assets/images/gorillaMain.png');
+        this.load.image('loaderBar', 'assets/images/loader-bar.png');
+        this.load.image('underwater', 'assets/images/1.png');
+        this.load.image('button', 'assets/images/gorillaMain.png');
         this.load.image('buttonMenu', '../assets/images/gorillaMenu.png');
         this.load.spritesheet('monkey', '../assets/images/monkey.png', 42, 52);
         this.load.spritesheet('gorilla', '../assets/images/gorilla.png', 76, 78, 11);
